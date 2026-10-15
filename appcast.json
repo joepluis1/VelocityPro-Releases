@@ -1,10 +1,10 @@
 {
-  "version": "1.0.4",
-  "build": "5",
-  "release_date": "2026-10-15T04:47:27Z",
-  "release_notes": "VelocityPro update 1.0.4",
-  "download_url": "https://github.com/joepluis1/VelocityPro-Releases/releases/download/v1.0.4/VelocityPro-1.0.4.zip",
-  "sha256": "c9be8fcb71f4dcf3214fef8639b4e0cd82073149b441c6abec144e264c8186bb",
-  "file_size": 1564264213,
+  "version": "1.0.5",
+  "build": "6",
+  "release_date": "2026-10-15T04:58:48Z",
+  "release_notes": "VelocityPro update 1.0.5",
+  "download_url": "https://github.com/joepluis1/VelocityPro-Releases/releases/download/v1.0.5/VelocityPro-1.0.5.zip",
+  "sha256": "4ba3302cf81036205fb4a98dc799631814a8444b7d093c8bd8f8caa8b0a505db",
+  "file_size": 1564264490,
   "mandatory": false
 }
