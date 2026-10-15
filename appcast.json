@@ -1,10 +1,10 @@
 {
-  "version": "1.0.6",
-  "build": "7",
-  "release_date": "2026-10-15T21:06:03Z",
-  "release_notes": "VelocityPro update 1.0.6",
-  "download_url": "https://github.com/joepluis1/VelocityPro-Releases/releases/download/v1.0.6/VelocityPro-1.0.6.zip",
-  "sha256": "499ef7f3c78b0bfa7cf8c015dbfded14f78d6d675c6b07052d60d78faf398dba",
-  "file_size": 1564264867,
+  "version": "1.0.7",
+  "build": "8",
+  "release_date": "2026-10-15T23:31:03Z",
+  "release_notes": "VelocityPro 1.0.7: Added active sort run protection for updates and restarts, stream-piped CoreGraphics RAW decoding with zero temporary disk writes, and native heap relief keeping memory strictly bounded in the green zone.",
+  "download_url": "https://github.com/joepluis1/VelocityPro-Releases/releases/download/v1.0.7/VelocityPro-1.0.7.zip",
+  "sha256": "749b7556824822e3fbe51107ec6b2ca7802e2f636c4144ee8219d23577523e84",
+  "file_size": 1564290365,
   "mandatory": false
 }
