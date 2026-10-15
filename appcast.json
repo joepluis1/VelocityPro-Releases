@@ -1,10 +1,10 @@
 {
-  "version": "1.0.7",
-  "build": "8",
-  "release_date": "2026-10-15T23:31:03Z",
-  "release_notes": "VelocityPro 1.0.7: Added active sort run protection for updates and restarts, stream-piped CoreGraphics RAW decoding with zero temporary disk writes, and native heap relief keeping memory strictly bounded in the green zone.",
-  "download_url": "https://github.com/joepluis1/VelocityPro-Releases/releases/download/v1.0.7/VelocityPro-1.0.7.zip",
-  "sha256": "749b7556824822e3fbe51107ec6b2ca7802e2f636c4144ee8219d23577523e84",
-  "file_size": 1564290365,
+  "version": "1.0.8",
+  "build": "9",
+  "release_date": "2026-10-15T23:48:27Z",
+  "release_notes": "VelocityPro 1.0.8: Standalone bundled Python ML runtimes (ai_sorter, reference_matcher, update_memory) baked into release package, active sort protection against relaunches, and stream-piped CoreGraphics RAW decoding with bounded green memory footprint.",
+  "download_url": "https://github.com/joepluis1/VelocityPro-Releases/releases/download/v1.0.8/VelocityPro-1.0.8.zip",
+  "sha256": "d168ca62660da2a6f75475d86424553e4f260cfaae9d35e5b27f225e476e2afe",
+  "file_size": 1564306254,
   "mandatory": false
 }
