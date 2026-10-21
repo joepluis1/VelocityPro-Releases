@@ -1,10 +1,54 @@
 {
+  "repository": "joepluis1/VelocityPro-Releases-Stable",
   "version": "1.0.8",
   "build": "9",
-  "release_date": "2026-10-15T23:48:27Z",
-  "release_notes": "VelocityPro 1.0.8: Standalone bundled Python ML runtimes (ai_sorter, reference_matcher, update_memory) baked into release package, active sort protection against relaunches, and stream-piped CoreGraphics RAW decoding with bounded green memory footprint.",
-  "download_url": "https://github.com/joepluis1/VelocityPro-Releases/releases/download/v1.0.8/VelocityPro-1.0.8.zip",
+  "release_date": "2026-10-21T02:57:17Z",
+  "release_notes": "VelocityPro 1.0.8 (Stable): Release candidate build on dedicated Testing repo with 2-track update channels (Stable & Testing) and atomic rollback protection.",
+  "download_url": "https://github.com/joepluis1/VelocityPro-Releases-Testing/releases/download/v1.0.8-testing.9/VelocityPro-1.0.8.zip",
   "sha256": "d168ca62660da2a6f75475d86424553e4f260cfaae9d35e5b27f225e476e2afe",
   "file_size": 1564306254,
-  "mandatory": false
+  "mandatory": false,
+  "min_supported_build": "1",
+  "rollback_from_builds": [],
+  "history": [],
+  "rollback_mandatory": true,
+  "allow_track_downgrade": true,
+  "track": "stable",
+  "tracks": {
+    "stable": {
+      "repository": "joepluis1/VelocityPro-Releases-Testing",
+      "version": "1.0.8",
+      "build": "9",
+      "release_date": "2026-10-21T02:57:17Z",
+      "release_notes": "VelocityPro 1.0.8 (Stable): Release candidate build on dedicated Testing repo with 2-track update channels (Stable & Testing) and atomic rollback protection.",
+      "download_url": "https://github.com/joepluis1/VelocityPro-Releases-Testing/releases/download/v1.0.8-testing.9/VelocityPro-1.0.8.zip",
+      "sha256": "d168ca62660da2a6f75475d86424553e4f260cfaae9d35e5b27f225e476e2afe",
+      "file_size": 1564306254,
+      "mandatory": false,
+      "min_supported_build": "1",
+      "rollback_from_builds": [],
+      "history": [],
+      "rollback_mandatory": true,
+      "allow_track_downgrade": true
+    }
+  },
+  "audit_trail": [
+    {
+      "timestamp": "2026-10-21T02:57:17Z",
+      "action": "promote_testing_to_stable",
+      "track": "stable",
+      "version": "1.0.8",
+      "build": "9",
+      "sha256": "d168ca62660da2a6f75475d86424553e4f260cfaae9d35e5b27f225e476e2afe",
+      "details": "Promoted verified Testing build 1.0.8 (Build 9) to Stable"
+    },
+    {
+      "timestamp": "2026-10-20T20:33:00Z",
+      "action": "separate_track_repos",
+      "track": "all",
+      "version": "1.0.8",
+      "build": "9",
+      "details": "Separated Stable (joepluis1/VelocityPro-Releases-Stable) and Testing (joepluis1/VelocityPro-Releases-Testing) repositories."
+    }
+  ]
 }
